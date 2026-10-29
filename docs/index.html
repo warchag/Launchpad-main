@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Launchpad for macOS — ลื่นไหล 120Hz ProMotion สไตล์ Apple ดั้งเดิม</title>
+  <meta name="title" content="Launchpad for macOS — ลื่นไหล 120Hz ProMotion สไตล์ Apple ดั้งเดิม">
+  <meta name="description" content="ดาวน์โหลด Launchpad for macOS ฟรี แอปพลิเคชัน Launchpad แบบเนทีฟระดับ 120Hz ProMotion ถอดแบบ Apple ดั้งเดิม พื้นหลัง Frosted Glass จากวอลเปเปอร์จริง ค้นหา 2 ภาษาทันใจ รองรับ Apple Silicon M1-M5 และ Intel">
+  <meta name="keywords" content="Launchpad Mac, macOS Launchpad, Launchpad Sonoma, Launchpad Sequoia, Apple Launchpad alternative, 120Hz ProMotion, Swift 6, แอปเปิ้ล ลอนช์แพด, โปรแกรม launchpad mac, โหลด launchpad ฟรี">
+  <meta name="author" content="Worracag Kongnoo (นายวรจักร คงหนู)">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="theme-color" content="#0d0f14">
+
+  <!-- Alternate Language & Canonical -->
+  <link rel="canonical" href="./index.html">
+  <link rel="alternate" hreflang="th" href="./index.html">
+  <link rel="alternate" hreflang="en" href="./en.html">
+  <link rel="alternate" hreflang="x-default" href="./index.html">
+
+  <!-- Open Graph / Facebook / LINE -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Launchpad for macOS">
+  <meta property="og:title" content="Launchpad for macOS — ลื่นไหล 120Hz ProMotion สไตล์ Apple ดั้งเดิม">
+  <meta property="og:description" content="แอป Launchpad แบบเนทีฟสำหรับ macOS ยุคใหม่ เร็ว ลื่นไหลระดับ 120Hz ดึงวอลเปเปอร์จริงมาเบลอกระจกฝ้า ค้นหาแอป 2 ภาษา และจัดกลุ่มโฟลเดอร์ครบวงจร">
+  <meta property="og:image" content="assets/Screenshot.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:alt" content="Launchpad for macOS หน้าจอหลัก 7x5 Grid">
+  <meta property="og:locale" content="th_TH">
+  <meta property="og:locale:alternate" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Launchpad for macOS — ลื่นไหล 120Hz ProMotion สไตล์ Apple ดั้งเดิม">
+  <meta name="twitter:description" content="แอป Launchpad แบบเนทีฟสำหรับ macOS ยุคใหม่ เร็ว ลื่นไหลระดับ 120Hz ดึงวอลเปเปอร์จริงมาเบลอกระจกฝ้า ค้นหาแอป 2 ภาษา และจัดกลุ่มโฟลเดอร์ครบวงจร">
+  <meta name="twitter:image" content="assets/Screenshot.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/AppIcon.png">
+  <link rel="apple-touch-icon" href="assets/AppIcon.png">
+  
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Structured Data (JSON-LD) for Google SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Launchpad for macOS",
+    "operatingSystem": "macOS 14.0 or later (Sonoma, Sequoia)",
+    "applicationCategory": "UtilitiesApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Worracag Kongnoo",
+      "url": "https://www.facebook.com/learntodeveloper"
+    },
+    "softwareVersion": "1.2.0",
+    "description": "แอปพลิเคชัน Launchpad แบบเนทีฟระดับ 120Hz ProMotion สำหรับ macOS ถอดแบบความรู้สึกดั้งเดิมของ Apple",
+    "downloadUrl": "Launchpad.zip",
+    "screenshot": "assets/Screenshot.png",
+    "featureList": [
+      "120Hz ProMotion Display Support",
+      "Real-Time Frosted Glass Wallpaper",
+      "Standard 7x5 App Grid",
+      "Instant Type-to-Search in Thai and English",
+      "Full Folder Management & Drag-to-Reorder",
+      "Favorites and Recent Apps Mini Dock"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Ambient Light Effect -->
+  <div class="ambient-glow"></div>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#" class="logo-brand">
+        <img src="assets/AppIcon.png" alt="Launchpad Logo">
+        <span>Launchpad</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#features">คุณสมบัติเด่น</a></li>
+          <li><a href="#showcase">ภาพตัวอย่าง</a></li>
+          <li><a href="#shortcuts">การควบคุม</a></li>
+          <li><a href="#install">วิธีติดตั้ง</a></li>
+          <li><a href="#donate">สนับสนุนผู้พัฒนา</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Language Switcher -->
+        <div class="lang-switch" title="เลือกภาษา / Switch Language">
+          <a href="index.html" class="lang-btn active">TH</a>
+          <a href="en.html" class="lang-btn">EN</a>
+        </div>
+
+        <a href="https://github.com/warchag/Launchpad" target="_blank" class="btn btn-secondary" title="View Source on GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          GitHub
+        </a>
+        <a href="Launchpad.zip" class="btn btn-primary" download>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+          </svg>
+          ดาวน์โหลดฟรี
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-pill">
+        <span class="dot"></span>
+        <span>เวอร์ชัน 1.2.0 • รองรับ macOS 14.0 Sonoma, Sequoia & ใหม่กว่า</span>
+      </div>
+
+      <h1 class="hero-title">Launchpad for macOS</h1>
+      <p class="hero-subtitle">
+        แอปพลิเคชัน Launchpad แบบเนทีฟระดับ <strong class="nowrap">120Hz ProMotion</strong> ถอดแบบความรู้สึกดั้งเดิม<span class="nowrap">ของ Apple</span><span class="desktop-br"><br></span>ผสานดีไซน์ <strong class="nowrap">Frosted Glass</strong> จากวอลเปเปอร์จริง ค้นหา <span class="nowrap">2 ภาษาทันใจ</span> และจัดระเบียบแอป<span class="nowrap">ครบวงจร</span>
+      </p>
+
+      <div class="hero-cta">
+        <a href="Launchpad.zip" class="btn btn-primary btn-lg" download>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.63-.77 1.06-1.84.94-2.92-.92.04-2.02.62-2.67 1.39-.58.67-1.09 1.77-.95 2.82 1.03.08 2.06-.52 2.68-1.29z"/>
+          </svg>
+          ดาวน์โหลด Launchpad.app (.zip)
+        </a>
+        <a href="https://github.com/warchag/Launchpad/releases" target="_blank" class="btn btn-secondary btn-lg">
+          Releases บน GitHub
+        </a>
+      </div>
+
+      <div class="hero-meta">
+        <span>⚡ Swift 6 & SwiftUI</span>
+        <span>•</span>
+        <span>🍏 Apple Silicon (M1-M5) & Intel Mac</span>
+        <span>•</span>
+        <span>📦 ขนาดไฟล์ ~5.2 MB</span>
+      </div>
+
+      <!-- Hero Main Mockup -->
+      <div class="hero-mockup-wrapper">
+        <div class="mockup-frame">
+          <img src="assets/Screenshot.png" alt="หน้าจอหลักของ Launchpad บน macOS">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Features Grid -->
+  <section id="features" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Key Features</p>
+        <h2 class="section-title">ประสิทธิภาพระดับเนทีฟ ดีไซน์ที่คุ้นเคย</h2>
+        <p class="section-desc">ออกแบบมาเพื่อความเร็วและความลื่นไหลสูงสุด ทำงานกลมกลืนกับ macOS ดั่งแอปของระบบ</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">✨</div>
+          <h3>120Hz ProMotion & Gesture Lock</h3>
+          <p>รองรับอัตราการรีเฟรช 120Hz พร้อมระบบ Gesture Lock อัจฉริยะ ล็อก 1 การปาด Trackpad ต่อ 1 หน้า ป้องกันหน้าไหลข้ามจากแรงเฉื่อย</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🖼️</div>
+          <h3>Real-time Frosted Wallpaper</h3>
+          <p>ดึงภาพวอลเปเปอร์หน้าจอปัจจุบันมาเรนเดอร์เอฟเฟกต์ Gaussian Blur ด้วย GPU Caching ประหยัดพลังงานและให้มิติกระจกฝ้าเสมือนจริง</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📐</div>
+          <h3>ตารางมาตรฐาน 7 × 5 (35 แอป/หน้า)</h3>
+          <p>คำนวณระยะห่าง Responsive อัตโนมัติ รองรับจอ MacBook ที่มี Notch, iMac รวมถึงจอภาพภายนอกระดับ 4K / 5K อย่างสมบูรณ์แบบ</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🔍</div>
+          <h3>Type-to-Search ทันใจ 2 ภาษา</h3>
+          <p>พิมพ์ค้นหาได้ทันทีโดยไม่ต้องคลิกช่องค้นหา รองรับชื่อภาษาไทย ชื่อไฟล์ .app ภาษาอังกฤษ และค้นหาด้วยตัวย่อ เช่น พิมพ์ "vsc" สำหรับ VS Code</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🗂️</div>
+          <h3>การจัดการโฟลเดอร์ครบวงจร</h3>
+          <p>ลากแอปทับกันเพื่อสร้างโฟลเดอร์ ลากสลับตำแหน่งได้อิสระ ลากแอปออกจากโฟลเดอร์ หรือกดปุ่ม "สลายกลุ่ม (Ungroup)" นำแอปกลับสู่หน้าหลักในคลิกเดียว</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">⭐</div>
+          <h3>Favorites Mini Dock & Live Status</h3>
+          <p>แถบกระจกฝ้าด้านบนรวมแอปโปรดและแอปเปิดล่าสุด พร้อมไฟสถานะแสดงแอปที่กำลังเปิดทำงานอยู่จริง และคลิกขวาเพื่อสั่ง Quit แอปได้ทันที</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Showcase / Screenshots -->
+  <section id="showcase" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Screenshots</p>
+        <h2 class="section-title">สำรวจฟีเจอร์ผ่านหน้าจอการใช้งานจริง</h2>
+        <p class="section-desc">คลิกเพื่อดูภาพความละเอียดสูงในแต่ละมุมมองของโปรแกรม</p>
+      </div>
+
+      <div class="gallery-tabs">
+        <button class="tab-btn active" data-target="slide-main">1. หน้าจอหลัก 7×5 Grid & Dock</button>
+        <button class="tab-btn" data-target="slide-folder">2. จัดกลุ่มโฟลเดอร์ (Folder View)</button>
+        <button class="tab-btn" data-target="slide-search">3. ค้นหาอัจฉริยะ (Smart Search)</button>
+        <button class="tab-btn" data-target="slide-settings">4. หน้าต่างตั้งค่า 2 ภาษา</button>
+      </div>
+
+      <div class="gallery-display">
+        <div id="slide-main" class="gallery-slide active">
+          <img src="assets/Screenshot.png" alt="หน้าจอหลัก Launchpad พร้อมหมวดหมู่และแถบ Favorites Dock">
+          <div class="gallery-caption">
+            <h4>หน้าจอหลักมาตรฐาน Apple 7 คอลัมน์ × 5 แถว</h4>
+            <p>พื้นหลัง Frosted Glass จากวอลเปเปอร์จริง แถบหมวดหมู่แอป และจุดไฟแสดงแอปที่กำลังทำงาน</p>
+          </div>
+        </div>
+
+        <div id="slide-folder" class="gallery-slide">
+          <img src="assets/Screenshot1.png" alt="หน้าต่างโฟลเดอร์กระจกฝ้า">
+          <div class="gallery-caption">
+            <h4>Glassmorphic Folder View & Drag-to-Reorder</h4>
+            <p>เปลี่ยนชื่อโฟลเดอร์ ลากจัดลำดับแอปภายใน ลากแอปออกนอกกรอบ หรือกดปุ่ม Ungroup เพื่อสลายกลุ่ม</p>
+          </div>
+        </div>
+
+        <div id="slide-search" class="gallery-slide">
+          <img src="assets/Screenshot3.png" alt="ระบบค้นหาและเลื่อนเลือกด้วยปุ่มลูกศร">
+          <div class="gallery-caption">
+            <h4>Type-to-Search & Keyboard Arrow Navigation</h4>
+            <p>พิมพ์หาได้ทันทีโดยไม่ต้องคลิก เลื่อนกรอบโฟกัสด้วยปุ่มลูกศร และกด Return เพื่อเปิดแอปทันที</p>
+          </div>
+        </div>
+
+        <div id="slide-settings" class="gallery-slide">
+          <img src="assets/Screenshot2.png" alt="หน้าต่างตั้งค่า 2 ภาษา TH/EN">
+          <div class="gallery-caption">
+            <h4>Bilingual Unified Settings (TH / EN)</h4>
+            <p>ปรับขนาดไอคอน ความเบลอพื้นหลัง ตั้งปุ่มลัด มุมจออัจฉริยะ Hot Corner และการสั่น Haptic</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shortcuts & Controls Section -->
+  <section id="shortcuts" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Controls & Shortcuts</p>
+        <h2 class="section-title">การควบคุมและปุ่มลัดคีย์บอร์ด</h2>
+        <p class="section-desc">ควบคุมแอปได้อย่างคล่องแคล่วทั้งด้วยเมาส์ แทร็คแพด และคีย์บอร์ด</p>
+      </div>
+
+      <div class="shortcuts-grid">
+        <div class="shortcut-card">
+          <div class="shortcut-label">
+            เปิด / ปิด Launchpad
+            <span>เปิดผ่านปุ่มลัดหรือมุมจอ</span>
+          </div>
+          <span class="kbd-badge">⌥ Space</span>
+        </div>
+
+        <div class="shortcut-card">
+          <div class="shortcut-label">
+            หุบนิ้วเพื่อปิด (Pinch to Close)
+            <span>บีบ 4 หรือ 2 นิ้วเข้าหากันบน Trackpad</span>
+          </div>
+          <span class="kbd-badge">Esc</span>
+        </div>
+
+        <div class="shortcut-card">
+          <div class="shortcut-label">
+            เปลี่ยนหน้า (Next / Prev Page)
+            <span>ปาด 2 นิ้วหรือกดปุ่มลูกศร</span>
+          </div>
+          <span class="kbd-badge">← / →</span>
+        </div>
+
+        <div class="shortcut-card">
+          <div class="shortcut-label">
+            ค้นหาทันใจ (Type-to-Search)
+            <span>พิมพ์ตัวอักษรใดๆ ได้ทันที</span>
+          </div>
+          <span class="kbd-badge">พิมพ์ได้ทันที</span>
+        </div>
+
+        <div class="shortcut-card">
+          <div class="shortcut-label">
+            เลือกแอปในผลค้นหา
+            <span>เลื่อนกรอบไฮไลต์ & เปิดแอป</span>
+          </div>
+          <span class="kbd-badge">ลูกศร + ↵ Enter</span>
+        </div>
+
+        <div class="shortcut-card">
+          <div class="shortcut-label">
+            โหมดจัดเรียงไอคอน (Jiggle Mode)
+            <span>คลิกค้างที่ไอคอน หรือคลิกปุ่มดินสอ</span>
+          </div>
+          <span class="kbd-badge">คลิกค้าง</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Installation Steps -->
+  <section id="install" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Installation</p>
+        <h2 class="section-title">วิธีติดตั้งใน 3 ขั้นตอนง่ายๆ</h2>
+        <p class="section-desc">ไม่ต้องตั้งค่าระบบให้ยุ่งยาก เพียงลากไฟล์ลงในเครื่องก็พร้อมใช้งานทันที</p>
+      </div>
+
+      <div class="steps-wrapper">
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <h3>ดาวน์โหลด & แตกไฟล์</h3>
+          <p>ดาวน์โหลดไฟล์ <strong>Launchpad.zip</strong> จากหน้าเว็บนี้ แล้วดับเบิลคลิกเพื่อแตกไฟล์ จะได้รับตัวโปรแกรม <code>Launchpad.app</code></p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <h3>ลากเข้า Applications</h3>
+          <p>ลากไฟล์ <strong>Launchpad.app</strong> ไปวางไว้ในโฟลเดอร์ <code>/Applications</code> ของเครื่อง Mac เพื่อติดตั้งอย่างถูกต้อง</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <h3>ปักหมุดไว้ที่ Dock</h3>
+          <p>ลากไอคอนจาก Applications ลงมาวางบนแถบ <strong>Dock</strong> ด้านล่างเพื่อกดเปิดใช้งานได้สะดวกตลอดเวลาเหมือน Launchpad ดั้งเดิม</p>
+        </div>
+      </div>
+
+      <!-- Gatekeeper Note -->
+      <div class="gatekeeper-note">
+        <div style="font-size: 1.3rem;">⚠️</div>
+        <div>
+          <strong>คำแนะนำเรื่องความปลอดภัย (macOS Gatekeeper):</strong>
+          <p style="margin-top: 4px; color: #e5e5ea; font-size: 0.88rem;">
+            เนื่องจากเป็นแอปแจกจ่ายภายนอก Mac App Store หากเปิดครั้งแรกแล้วระบบแจ้งเตือนว่า "แอปมาจากนักพัฒนาที่ไม่สามารถระบุตัวตนได้" ให้คลิกขวาที่ตัวแอปแล้วเลือก <strong>Open</strong> หรือเปิด Terminal แล้วรันคำสั่งปลดล็อกด้านล่าง:
+          </p>
+        </div>
+      </div>
+
+      <div class="terminal-box">
+        <div class="terminal-content">
+          <span class="prompt">$</span>xattr -cr /Applications/Launchpad.app
+        </div>
+        <button class="btn-copy" data-copy="xattr -cr /Applications/Launchpad.app">คัดลอกคำสั่ง</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support Developer & PromptPay Donate -->
+  <section id="donate" class="section">
+    <div class="container">
+      <div class="donate-box">
+        <div class="donate-info">
+          <p class="section-tag" style="color: #ffd60a;">Support Developer</p>
+          <h3>สนับสนุนผู้พัฒนา</h3>
+          <p>
+            โปรเจกต์นี้ได้รับการพัฒนาและเปิดให้ใช้งานฟรีแบบ Open Source เพื่อให้ผู้ใช้ macOS ได้สัมผัสประสบการณ์ Launchpad ที่เร็ว ลื่นไหล และตรงใจที่สุด<span class="desktop-br"><br></span>หากคุณชื่นชอบโปรแกรมนี้ สามารถร่วมสนับสนุนค่าน้ำชา / กาแฟ เพื่อเป็นกำลังใจในการพัฒนาฟีเจอร์ใหม่ๆ ผ่านพร้อมเพย์ได้ครับ
+          </p>
+
+          <div class="dev-card">
+            <div class="dev-avatar">W</div>
+            <div>
+              <div class="dev-name">นายวรจักร คงหนู (Worracag Kongnoo)</div>
+              <div class="dev-role">ผู้พัฒนาโปรแกรม • เพจ "Learn to Developer"</div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="https://www.facebook.com/learntodeveloper" target="_blank" class="btn btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+              เพจ Facebook: Learn to Developer
+            </a>
+            <a href="https://github.com/warchag/Launchpad" target="_blank" class="btn btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              ร่วมกด Star บน GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="promptpay-card">
+          <div class="promptpay-header">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+            </svg>
+            PromptPay พร้อมเพย์
+          </div>
+          <img src="assets/PromptPayQR.png" alt="PromptPay QR Code - 095-920-1930" class="promptpay-qr">
+          <div class="promptpay-number">095-920-1930</div>
+          <div class="promptpay-holder">นายวรจักร คงหนู</div>
+          <button id="copyPromptPayBtn" class="btn btn-secondary" style="width: 100%; font-size: 0.84rem; padding: 8px 12px;" data-clipboard-text="0959201930">
+            คัดลอกเบอร์พร้อมเพย์
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <p>© 2026 Launchpad for macOS. พัฒนาด้วย Swift & SwiftUI โดย นายวรจักร คงหนู</p>
+      </div>
+      <div class="footer-links">
+        <a href="#features">คุณสมบัติ</a>
+        <a href="#install">การติดตั้ง</a>
+        <a href="https://github.com/warchag/Launchpad" target="_blank">GitHub</a>
+        <a href="https://www.facebook.com/learntodeveloper" target="_blank">Facebook Page</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+

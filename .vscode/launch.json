@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Launchpad-main}",
+            "name": "Debug Launchpad",
+            "target": "Launchpad",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Launchpad"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Launchpad-main}",
+            "name": "Release Launchpad",
+            "target": "Launchpad",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Launchpad"
+        }
+    ]
+}
